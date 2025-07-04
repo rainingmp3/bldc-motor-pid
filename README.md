@@ -1,4 +1,7 @@
 ## «DC Motor with Load - Modeling, Control, and Optimization» 
+
+### To control the motor to achieve setpoint, a PID controller was created; this controller was further optimized by a genetic algorithm; later, input disturbances in the form of additional torque were added to the system. The work was done both in Python and Matlab
+### Complete simulink model:
 ### Goals: 
 Design a control system for a DC motor driving a mechanical load. The system should be modeled, simulated, and optimized to meet specific performance criteria. The task can be implemented using MATLAB, Python, or any other tool that supports dynamic system modeling (e.g., Simulink or Python’s control library).
 
@@ -72,9 +75,6 @@ U^2 is the input cost
 Q,R are the weight parameters for the error and input cost of the motor, respectively.
 After that, the lowest-valued coefficients give rise to the next population, their values are crossed and subjected to random mutations. The algorithm has 30 representatives in one generation and is repeated for up to 30 generations.
  
-To control the motor to achieve this, a PID controller was created; this controller was further optimized by a genetic algorithm; later, input disturbances in the form of additional torque were added to the system.
-### Complete simulink model:
-
 ![alt text](Images/image-13.png)
 
 ### Results
