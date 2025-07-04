@@ -21,7 +21,7 @@ The motor should achieve a target angular velocity of 100 rad/s within 2 seconds
  
 ### System Modeling
 
-1) Motor dynamics are made of two components: 
+Motor dynamics are made of two components: 
 
     a) Electric dynamics:
  
